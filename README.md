@@ -5,4 +5,4 @@ Tips and tricks for using Linux
 
 Use a bash for loop to get all the files. Then inside the loop call the compression function.
 
-for f in *.zst ; do unzstd "$f" ; done
+> for f in *.zst ; do unzstd "$f" ; done
