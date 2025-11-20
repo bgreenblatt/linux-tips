@@ -12,3 +12,10 @@ Use a bash for loop to get all the files. Then inside the loop call the compress
 Use the *--wildcards* option
 
 > tar xf dm-100820-dmn15.tar --wildcards  "\*foobar\*"
+>
+
+## SCP multiple files from local to remote
+
+Use bash scripting for loop
+
+> for f in '*.rpm'; do scp $f user@host:; done
