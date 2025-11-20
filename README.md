@@ -16,6 +16,6 @@ Use the *--wildcards* option
 
 ## SCP multiple files from local to remote
 
-Use bash scripting for loop
+Use bash scripting for loop. For example to copy all rpm files in current directory to the remote host:
 
 > for f in '*.rpm'; do scp $f user@host:; done
